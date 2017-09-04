@@ -1,0 +1,56 @@
+.page-2 {
+  width: 100%;
+}
+
+ul.contents {
+  padding-left: 0;
+  margin-top: 45px;
+  color: #232d37;
+  li {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    &.level-1 {
+      font-weight: 600;
+      margin-top: 35px;
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+    &.level-2 {
+      margin-left: 27px;
+      &:after {
+        border-top: 1px dotted #b9c3cd;
+      }
+    }
+    &:after {
+      content:'';
+      display: block;
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      width: 100%;
+      height: 2px;
+      border-top: 1px dotted #232d37;
+    }
+    .name {
+      display: inline-block;
+      position: relative;
+      z-index: 2;
+      background: #fff;
+      padding-right: 5px;
+    }
+    .page {
+      display: block;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      z-index: 2;
+      background: #fff;
+      width: 30px;
+      text-align: right;
+      line-height: 1.5;
+    }
+  }
+}

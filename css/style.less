@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700');
+
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+}
+
+.page-container {
+  min-width: 980px;
+  max-width: 2062px;
+  width: 100%;
+  min-height: 100%;
+  margin: 0 auto;
+  position: relative;
+  .with-footer {
+    padding-bottom: 50px;
+  }
+}
+
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+header {
+  padding: 0 46px;
+  height: 120px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  &.dark-bg {
+    background-color: #232d37;
+  }
+  .name {
+    font-size: 53.333333px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+}
+
+.content {
+  padding: 0 46px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+footer {
+  height: 55px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 46px;
+  width: 100%;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  .name {
+    text-transform: uppercase;
+    font-size: 7px;
+    width: 50%;
+    float: left;
+    color: #00aaff;
+  }
+  .number {
+    font-size: 7px;
+    width: 50%;
+    float: left;
+    text-align: right;
+    color: #00aaff;
+  }
+}
+
+@import "page-1.less";
+@import "page-2.less";
+
+@media (min-width: 1461px) {
+  html {
+    font-size: 8px;
+  }
+}
+@media (max-width: 1460px) {
+  html {
+    font-size: 8px;
+  }
+}
+@media (max-width: 1320px) {
+  html {
+    font-size: 7px;
+  }
+}
+@media (max-width: 1225px) {
+  html {
+    font-size: 6px;
+  }
+}
+@media (max-width: 1070px) {
+  html {
+    font-size: 5px;
+  }
+}

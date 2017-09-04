@@ -1,0 +1,36 @@
+.page-1 {
+  background-color: #232d37;
+  background-image: url("../img/page-1_bg.png");
+  background-position: right;
+  background-repeat: repeat-y;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.page-1 .header {
+  font-size: 133px;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 200px;
+  font-weight: bold;
+  line-height: 1;
+}
+.page-1 .subheader {
+  font-size: 53px;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 2.51572327044%;
+  padding-bottom: 26.4150943396%;
+  line-height: 1;
+  font-weight: 300;
+}
+.page-1 .copyright {
+  font-size: 7px;
+  font-weight: bold;
+  width: 60%;
+  margin: 0 auto;
+  color: #87919b;
+  padding-top: 2.51572327044%;
+  padding-bottom: 5.66037735849%;
+}
