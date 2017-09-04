@@ -9,7 +9,7 @@
   font-family: 'Open Sans Condensed', sans-serif;
 }
 .page-1 .header {
-  font-size: 133px;
+  font-size: 133.333333px;
   width: 60%;
   margin: 0 auto;
   padding-top: 200px;
@@ -17,7 +17,7 @@
   line-height: 1;
 }
 .page-1 .subheader {
-  font-size: 53px;
+  font-size: 53.333333px;
   width: 60%;
   margin: 0 auto;
   padding-top: 2.51572327044%;
@@ -26,7 +26,7 @@
   font-weight: 300;
 }
 .page-1 .copyright {
-  font-size: 7px;
+  font-size: 7.333333px;
   font-weight: bold;
   width: 60%;
   margin: 0 auto;

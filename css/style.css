@@ -26,7 +26,10 @@ html {
   clear: both;
   display: block;
 }
-header {
+header .name {
+  font-size: 53.333333px;
+  text-transform: uppercase;
+  color: #fff;
   padding: 0 46px;
   height: 120px;
   width: 100%;
@@ -36,18 +39,41 @@ header {
   display: flex;
   align-items: center;
 }
-header.dark-bg {
+header.dark-bg .name {
   background-color: #232d37;
 }
-header .name {
-  font-size: 53.333333px;
-  text-transform: uppercase;
+header.dark-bg-with-opacity .name {
+  background-color: rgba(35, 45, 55, 0.8);
+}
+header .description {
+  font-size: 12.8px;
+  width: 50%;
+  padding: 30px 46px;
+  box-sizing: border-box;
   color: #fff;
 }
 .content {
   padding: 0 46px;
   box-sizing: border-box;
   width: 100%;
+}
+.content h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 29px;
+}
+.content .flex-columns {
+  display: flex;
+}
+.content .flex-columns .column {
+  font-size: 12.8px;
+}
+.content .flex-columns .column:first-child {
+  padding-right: 15px;
+}
+.content .flex-columns .column:last-child {
+  padding-left: 15px;
 }
 footer {
   height: 55px;
@@ -68,7 +94,7 @@ footer .name {
   color: #00aaff;
 }
 footer .number {
-  font-size: 7px;
+  font-size: 7.333333px;
   width: 50%;
   float: left;
   text-align: right;
@@ -85,7 +111,7 @@ footer .number {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 .page-1 .header {
-  font-size: 133px;
+  font-size: 133.333333px;
   width: 60%;
   margin: 0 auto;
   padding-top: 200px;
@@ -93,7 +119,7 @@ footer .number {
   line-height: 1;
 }
 .page-1 .subheader {
-  font-size: 53px;
+  font-size: 53.333333px;
   width: 60%;
   margin: 0 auto;
   padding-top: 2.51572327044%;
@@ -102,7 +128,7 @@ footer .number {
   font-weight: 300;
 }
 .page-1 .copyright {
-  font-size: 7px;
+  font-size: 7.333333px;
   font-weight: bold;
   width: 60%;
   margin: 0 auto;
