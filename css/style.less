@@ -86,7 +86,6 @@ header {
     width: 100%;
     box-sizing: border-box;
     font-family: 'Open Sans CondensedBold', sans-serif;
-    width: 100%;
     display: table;
     .table-cell {
       width: 100%;
@@ -116,18 +115,26 @@ header {
     font-size: 29px;
     margin: 0 0 25px;
   }
-  .columns {
-    display: table;
-    .column {
-      display: table-cell;
-      width: 50%;
-      box-sizing: border-box;
-      &:first-child {
-        padding-right: 15px;
-      }
-      &:last-child {
-        padding-left: 15px;
-      }
+  h2 {
+    margin: 0 0 25px;
+    text-transform: uppercase;
+    font-family: 'Open Sans CondensedBold', sans-serif;
+    font-size: 17px;
+  }
+}
+
+.columns {
+  width: 100%;
+  display: table;
+  .column {
+    display: table-cell;
+    width: 50%;
+    box-sizing: border-box;
+    &:first-child {
+      padding-right: 15px;
+    }
+    &:last-child {
+      padding-left: 15px;
     }
   }
 }
@@ -142,16 +149,61 @@ header {
 }
 
 .semibold {
-  font-weight: 600;
+  font-family: 'Open Sans Semibold', sans-serif;
 }
 
 .bold {
-  font-weight: 700;
+  font-family: 'Open Sans Bold', sans-serif;
 }
 
 .blue-text {
   color: #00aaff;
-  font-weight: 600;
+  font-family: 'Open Sans Semibold', sans-serif;
+}
+
+.border-block {
+  border: 2px solid #f0f5fa;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 25px 0;
+  .header {
+    margin: 0 0 25px;
+    text-transform: uppercase;
+    font-family: 'Open Sans CondensedBold', sans-serif;
+    font-size: 17px;
+  }
+  .text {
+    margin: 0;
+  }
+  .example-header {
+    font-family: 'Open Sans SemiboldItalic', sans-serif;
+    font-size: 11px;
+    margin-bottom: 20px;
+  }
+}
+
+table.custom-table {
+  width: 100%;
+  border-spacing: 0px;
+  thead tr th {
+    padding: 3px 5px;
+    font-family: 'Open Sans Bold', sans-serif;
+    font-size: 8px;
+    text-align: left;
+    border-bottom: 1px solid #00aaff;
+    &:not(:first-child) {
+      text-align: center;
+    }
+  }
+  tbody tr td {
+    padding: 3px 5px;
+    font-size: 8px;
+    text-align: left;
+    border-bottom: 0.5px solid #b2e5ff;
+    &:not(:first-child) {
+      text-align: center;
+    }
+  }
 }
 
 footer {
@@ -188,34 +240,34 @@ footer {
 @import "page-4.less";
 @import "page-5.less";
 @import "page-6.less";
-//@import "page-7.less";
-//@import "page-8.less";
-//@import "page-9.less";
-//@import "page-10.less";
-//@import "page-11.less";
-//@import "page-12.less";
-//@import "page-13.less";
-//@import "page-14.less";
-//@import "page-15.less";
-//@import "page-17.less";
-//@import "page-18.less";
-//@import "page-19.less";
-//@import "page-20.less";
-//@import "page-21.less";
-//@import "page-22.less";
-//@import "page-23.less";
-//@import "page-24.less";
-//@import "page-25.less";
-//@import "page-26.less";
-//@import "page-27.less";
-//@import "page-28.less";
-//@import "page-29.less";
-//@import "page-30.less";
-//@import "page-31.less";
-//@import "page-32.less";
-//@import "page-33.less";
-//@import "page-34.less";
-//@import "page-35.less";
+@import "page-7.less";
+@import "page-8.less";
+@import "page-9.less";
+@import "page-10.less";
+@import "page-11.less";
+@import "page-12.less";
+@import "page-13.less";
+@import "page-14.less";
+@import "page-15.less";
+@import "page-17.less";
+@import "page-18.less";
+@import "page-19.less";
+@import "page-20.less";
+@import "page-21.less";
+@import "page-22.less";
+@import "page-23.less";
+@import "page-24.less";
+@import "page-25.less";
+@import "page-26.less";
+@import "page-27.less";
+@import "page-28.less";
+@import "page-29.less";
+@import "page-30.less";
+@import "page-31.less";
+@import "page-32.less";
+@import "page-33.less";
+@import "page-34.less";
+@import "page-35.less";
 
 @media (min-width: 1461px) {
   html {
