@@ -11,7 +11,7 @@ html {
   background-color: #fff;
 }
 .page-container {
-  min-width: 980px;
+  min-width: 700px;
   max-width: 2062px;
   width: 100%;
   min-height: 100%;
@@ -90,6 +90,9 @@ header .description {
 }
 .semibold {
   font-weight: 600;
+}
+.bold {
+  font-weight: 700;
 }
 .blue-text {
   color: #00aaff;
