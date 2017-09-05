@@ -55,7 +55,7 @@ header {
   .description {
     font-size: 12.8px;
     width: 50%;
-    padding: 30px 46px;
+    padding: 30px 15px 30px 46px;
     box-sizing: border-box;
     color: #fff;
   }
@@ -74,7 +74,8 @@ header {
   .flex-columns {
     display: flex;
     .column {
-      font-size: 12.8px;
+      width: 50%;
+      box-sizing: border-box;
       &:first-child {
         padding-right: 15px;
       }
@@ -83,6 +84,11 @@ header {
       }
     }
   }
+}
+
+p.text {
+  margin-bottom: 15px;
+  font-size: 12.8px;
 }
 
 footer {
@@ -109,6 +115,7 @@ footer {
     float: left;
     text-align: right;
     color: #00aaff;
+    font-weight: bold;
   }
 }
 

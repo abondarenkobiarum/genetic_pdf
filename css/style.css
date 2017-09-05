@@ -48,7 +48,7 @@ header.dark-bg-with-opacity .name {
 header .description {
   font-size: 12.8px;
   width: 50%;
-  padding: 30px 46px;
+  padding: 30px 15px 30px 46px;
   box-sizing: border-box;
   color: #fff;
 }
@@ -67,13 +67,18 @@ header .description {
   display: flex;
 }
 .content .flex-columns .column {
-  font-size: 12.8px;
+  width: 50%;
+  box-sizing: border-box;
 }
 .content .flex-columns .column:first-child {
   padding-right: 15px;
 }
 .content .flex-columns .column:last-child {
   padding-left: 15px;
+}
+p.text {
+  margin-bottom: 15px;
+  font-size: 12.8px;
 }
 footer {
   height: 55px;
@@ -99,6 +104,7 @@ footer .number {
   float: left;
   text-align: right;
   color: #00aaff;
+  font-weight: bold;
 }
 .page-1 {
   background-color: #232d37;
