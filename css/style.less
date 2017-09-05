@@ -1,5 +1,51 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700');
+@font-face {
+  font-family: 'Open Sans';
+  src: url(fonts/OpenSans.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans Bold';
+  src: url(fonts/OpenSans-Bold.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans Semibold';
+  src: url(fonts/OpenSans-Semibold.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans SemiboldItalic';
+  src: url(fonts/OpenSans-SemiboldItalic.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans CondensedLight';
+  src: url(fonts/OpenSans-CondensedLight.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans CondensedBold';
+  src: url(fonts/OpenSans-CondensedBold.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Wingdings';
+  src: url(fonts/Wingdings.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
 
 body, html {
   width: 100%;
@@ -39,11 +85,14 @@ header {
     height: 120px;
     width: 100%;
     box-sizing: border-box;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: bold;
-
-    display: flex;
-    align-items: center;
+    font-family: 'Open Sans CondensedBold', sans-serif;
+    width: 100%;
+    display: table;
+    .table-cell {
+      width: 100%;
+      display: table-cell;
+      vertical-align: middle;
+    }
     &.less-size {
       font-size: 37px;
     }
@@ -55,13 +104,6 @@ header {
     background-color: rgba(35,45,55,0.8);
 
   }
-  .description {
-    font-size: 12.8px;
-    width: 50%;
-    padding: 30px 15px 30px 46px;
-    box-sizing: border-box;
-    color: #fff;
-  }
 }
 
 .content {
@@ -69,15 +111,15 @@ header {
   box-sizing: border-box;
   width: 100%;
   h1 {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: bold;
+    font-family: 'Open Sans CondensedBold', sans-serif;
     text-transform: uppercase;
     font-size: 29px;
     margin: 0 0 25px;
   }
-  .flex-columns {
-    display: flex;
+  .columns {
+    display: table;
     .column {
+      display: table-cell;
       width: 50%;
       box-sizing: border-box;
       &:first-child {
@@ -120,32 +162,32 @@ footer {
   padding: 0 46px;
   width: 100%;
   box-sizing: border-box;
-
-  display: flex;
-  align-items: center;
+  display: table;
   .name {
+    display: table-cell;
     text-transform: uppercase;
     font-size: 7px;
     width: 50%;
-    float: left;
     color: #00aaff;
+    vertical-align: middle;
   }
   .number {
+    display: table-cell;
     font-size: 7.333333px;
     width: 50%;
-    float: left;
     text-align: right;
     color: #00aaff;
     font-weight: bold;
+    vertical-align: middle;
   }
 }
 
-//@import "page-1.less";
-//@import "page-2.less";
-//@import "page-3.less";
-//@import "page-4.less";
-//@import "page-5.less";
-//@import "page-6.less";
+@import "page-1.less";
+@import "page-2.less";
+@import "page-3.less";
+@import "page-4.less";
+@import "page-5.less";
+@import "page-6.less";
 //@import "page-7.less";
 //@import "page-8.less";
 //@import "page-9.less";

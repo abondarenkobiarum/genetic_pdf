@@ -1,31 +1,30 @@
 .page-2 {
   width: 100%;
 }
-ul.contents {
+.page-2 ul.contents {
   padding-left: 0;
-  margin-top: 45px;
   color: #232d37;
 }
-ul.contents li {
+.page-2 ul.contents li {
   display: block;
   position: relative;
   overflow: hidden;
   margin-bottom: 20px;
 }
-ul.contents li.level-1 {
+.page-2 ul.contents li.level-1 {
   font-weight: 600;
   margin-top: 35px;
 }
-ul.contents li.level-1:first-child {
+.page-2 ul.contents li.level-1:first-child {
   margin-top: 0;
 }
-ul.contents li.level-2 {
+.page-2 ul.contents li.level-2 {
   margin-left: 27px;
 }
-ul.contents li.level-2:after {
+.page-2 ul.contents li.level-2:after {
   border-top: 1px dotted #b9c3cd;
 }
-ul.contents li:after {
+.page-2 ul.contents li:after {
   content: '';
   display: block;
   position: absolute;
@@ -35,14 +34,14 @@ ul.contents li:after {
   height: 2px;
   border-top: 1px dotted #232d37;
 }
-ul.contents li .name {
+.page-2 ul.contents li .name {
   display: inline-block;
   position: relative;
   z-index: 2;
   background: #fff;
   padding-right: 5px;
 }
-ul.contents li .page {
+.page-2 ul.contents li .page {
   display: block;
   position: absolute;
   top: 0px;
