@@ -28,6 +28,7 @@ html {
 }
 header .name {
   font-size: 53.333333px;
+  line-height: 1;
   text-transform: uppercase;
   color: #fff;
   padding: 0 46px;
@@ -38,6 +39,9 @@ header .name {
   font-weight: bold;
   display: flex;
   align-items: center;
+}
+header .name.less-size {
+  font-size: 37px;
 }
 header.dark-bg .name {
   background-color: #232d37;
@@ -53,7 +57,7 @@ header .description {
   color: #fff;
 }
 .content {
-  padding: 0 46px;
+  padding: 45px 46px;
   box-sizing: border-box;
   width: 100%;
 }
@@ -62,6 +66,7 @@ header .description {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 29px;
+  margin: 0 0 25px;
 }
 .content .flex-columns {
   display: flex;
@@ -77,8 +82,15 @@ header .description {
   padding-left: 15px;
 }
 p.text {
-  margin-bottom: 15px;
+  margin: 0 0 15px;
   font-size: 12.8px;
+}
+p.text.size-16 {
+  font-size: 16px;
+}
+.blue-text {
+  color: #00aaff;
+  font-weight: 600;
 }
 footer {
   height: 55px;
@@ -196,6 +208,44 @@ ul.contents li .page {
   width: 30px;
   text-align: right;
   line-height: 1.5;
+}
+.border-block {
+  border: 2px solid #f0f5fa;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 25px 0;
+}
+.border-block .header {
+  margin: 0 0 25px;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+.border-block .fake-list__line {
+  margin-bottom: 15px;
+}
+.border-block .fake-list__line:last-child {
+  margin-bottom: 0;
+}
+.border-block .fake-list__line .number {
+  font-size: 14px;
+  margin-right: 7px;
+  margin-top: 4px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #00aaff;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  float: left;
+}
+.border-block .fake-list__line .text {
+  font-size: 12.8px;
+}
+img.map {
+  width: 100%;
+  height: auto;
 }
 @media (min-width: 1461px) {
   html {

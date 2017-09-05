@@ -32,9 +32,9 @@ body, html {
 header {
   .name {
     font-size: 53.333333px;
+    line-height: 1;
     text-transform: uppercase;
     color: #fff;
-
     padding: 0 46px;
     height: 120px;
     width: 100%;
@@ -44,6 +44,9 @@ header {
 
     display: flex;
     align-items: center;
+    &.less-size {
+      font-size: 37px;
+    }
   }
   &.dark-bg .name {
     background-color: #232d37;
@@ -62,7 +65,7 @@ header {
 }
 
 .content {
-  padding: 0 46px;
+  padding: 45px 46px;
   box-sizing: border-box;
   width: 100%;
   h1 {
@@ -70,6 +73,7 @@ header {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 29px;
+    margin: 0 0 25px;
   }
   .flex-columns {
     display: flex;
@@ -87,8 +91,16 @@ header {
 }
 
 p.text {
-  margin-bottom: 15px;
+  margin: 0 0 15px;
   font-size: 12.8px;
+  &.size-16 {
+    font-size: 16px;
+  }
+}
+
+.blue-text {
+  color: #00aaff;
+  font-weight: 600;
 }
 
 footer {
@@ -122,7 +134,7 @@ footer {
 @import "page-1.less";
 @import "page-2.less";
 @import "page-3.less";
-//@import "page-4.less";
+@import "page-4.less";
 //@import "page-5.less";
 //@import "page-6.less";
 //@import "page-7.less";
