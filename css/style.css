@@ -124,12 +124,21 @@ header.dark-bg-with-opacity .name {
 .columns .column:last-child {
   padding-left: 15px;
 }
+.columns.first-small .column:first-child {
+  width: 30%;
+}
+.columns.first-small .column:last-child {
+  width: 70%;
+}
 .text {
   margin: 0 0 15px;
   font-size: 12.8px;
 }
 .size-16 {
   font-size: 16px;
+}
+.size-8 {
+  font-size: 8px;
 }
 .semibold {
   font-family: 'Open Sans Semibold', sans-serif;
@@ -183,6 +192,9 @@ table.custom-table tbody tr td {
 }
 table.custom-table tbody tr td:not(:first-child) {
   text-align: center;
+}
+table.custom-table.header-left-table tbody tr td:first-child {
+  font-family: 'Open Sans Bold', sans-serif;
 }
 footer {
   height: 55px;

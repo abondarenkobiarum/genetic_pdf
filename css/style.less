@@ -137,6 +137,16 @@ header {
       padding-left: 15px;
     }
   }
+  &.first-small {
+    .column {
+      &:first-child {
+        width: 30%;
+      }
+      &:last-child {
+        width: 70%;
+      }
+    }
+  }
 }
 
 .text {
@@ -146,6 +156,10 @@ header {
 
 .size-16 {
   font-size: 16px;
+}
+
+.size-8 {
+  font-size: 8px;
 }
 
 .semibold {
@@ -202,6 +216,11 @@ table.custom-table {
     border-bottom: 0.5px solid #b2e5ff;
     &:not(:first-child) {
       text-align: center;
+    }
+  }
+  &.header-left-table {
+    tbody tr td:first-child {
+      font-family: 'Open Sans Bold', sans-serif;
     }
   }
 }
