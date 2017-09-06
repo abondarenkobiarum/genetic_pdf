@@ -68,7 +68,7 @@ html {
 }
 header .name {
   font-size: 53.333333px;
-  line-height: 1;
+  line-height: 92.8571428571%;
   text-transform: uppercase;
   color: #fff;
   padding: 0 46px;
@@ -101,7 +101,8 @@ header.dark-bg-with-opacity .name {
   font-family: 'Open Sans CondensedBold', sans-serif;
   text-transform: uppercase;
   font-size: 29px;
-  margin: 0 0 25px;
+  margin: 0 0 20px;
+  line-height: 1;
 }
 .content h2 {
   margin: 0 0 25px;
@@ -117,6 +118,7 @@ header.dark-bg-with-opacity .name {
   display: table-cell;
   width: 50%;
   box-sizing: border-box;
+  vertical-align: top;
 }
 .columns .column:first-child {
   padding-right: 15px;
@@ -133,6 +135,7 @@ header.dark-bg-with-opacity .name {
 .text {
   margin: 0 0 15px;
   font-size: 12.8px;
+  line-height: 137.5%;
 }
 .size-16 {
   font-size: 16px;
@@ -157,7 +160,7 @@ header.dark-bg-with-opacity .name {
   margin: 25px 0;
 }
 .border-block .header {
-  margin: 0 0 25px;
+  margin: 0 0 10px;
   text-transform: uppercase;
   font-family: 'Open Sans CondensedBold', sans-serif;
   font-size: 17px;
@@ -198,9 +201,6 @@ table.custom-table.header-left-table tbody tr td:first-child {
 }
 footer {
   height: 55px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
   padding: 0 46px;
   width: 100%;
   box-sizing: border-box;
@@ -360,7 +360,7 @@ footer .number {
 }
 .page-5 .bold-info {
   font-size: 12.8px;
-  font-weight: 600;
+  font-family: 'Open Sans Semibold', sans-serif;
 }
 .page-6 .m-b-25 {
   margin-bottom: 25px;
@@ -375,10 +375,10 @@ footer .number {
   margin-bottom: 0;
 }
 .page-7 .fake-list__line .box {
-  width: 7px;
-  height: 7px;
+  width: 8px;
+  height: 8px;
   margin-right: 5px;
-  margin-top: 6px;
+  margin-top: 5px;
   float: left;
 }
 .page-7 .fake-list__line .box.blue {
