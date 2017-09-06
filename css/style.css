@@ -93,7 +93,7 @@ header.dark-bg-with-opacity .name {
   background-color: rgba(35, 45, 55, 0.8);
 }
 .content {
-  padding: 45px 46px;
+  padding: 45px 46px 0;
   box-sizing: border-box;
   width: 100%;
 }
