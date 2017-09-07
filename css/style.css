@@ -52,7 +52,7 @@ html {
   color: #232d37;
 }
 .page-container {
-  min-width: 700px;
+  min-width: 612px;
   max-width: 2062px;
   width: 100%;
   min-height: 100%;
@@ -93,6 +93,13 @@ header.dark-bg .name {
 header.dark-bg-with-opacity .name {
   background-color: rgba(35, 45, 55, 0.8);
 }
+header.dark-bg-with-opacity.bg-image .name {
+  background-size: cover;
+  background-color: rgba(35, 45, 55, 0.55);
+}
+header.dark-bg-with-opacity.bg-image {
+  background-size: cover;
+}
 .content {
   padding: 45px 46px 0;
   box-sizing: border-box;
@@ -106,7 +113,7 @@ header.dark-bg-with-opacity .name {
   line-height: 1;
 }
 .content h2 {
-  margin: 0 0 25px;
+  margin: 0 0 15px;
   text-transform: uppercase;
   font-family: 'Open Sans CondensedBold', sans-serif;
   font-size: 17px;
@@ -307,7 +314,6 @@ footer .number {
   width: 60%;
   margin: 0 auto;
   padding-top: 200px;
-  font-weight: bold;
   line-height: 1;
   font-family: 'Open Sans CondensedBold', sans-serif;
 }
@@ -343,7 +349,7 @@ footer .number {
   margin-bottom: 20px;
 }
 .page-2 ul.contents li.level-1 {
-  font-weight: 600;
+  font-family: 'Open Sans Semibold', sans-serif;
   margin-top: 35px;
 }
 .page-2 ul.contents li.level-1:first-child {
@@ -472,6 +478,65 @@ footer .number {
 }
 .page-7 .fake-list__line .text {
   font-size: 12.8px;
+}
+.page-8 .bg-image {
+  background-image: url("../img/weight-bg.jpg");
+}
+.page-15 .bg-image {
+  background-image: url("../img/sleep-bg.jpg");
+}
+.page-18 .bg-image {
+  background-image: url("../img/healthy-aging-bg.jpg");
+}
+.page-26 .bg-image {
+  background-image: url("../img/perfomance-bg.jpg");
+}
+.page-28 .circles {
+  margin: 0 auto;
+}
+.page-28 .circles .endurance div,
+.page-28 .circles .power div {
+  border-radius: 50%;
+  font-size: 17.333333px;
+  text-transform: uppercase;
+  background-color: #00aaff;
+  width: 120px;
+  height: 120px;
+  font-family: 'Open Sans CondensedBold', sans-serif;
+  color: #fff;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+.page-28 .circles .power {
+  padding-left: 10px;
+}
+.page-28 .circles .power div {
+  background-color: rgba(0, 170, 255, 0.3);
+  height: 80px;
+  width: 80px;
+}
+.page-28 .fake-formula {
+  margin: 0 auto;
+}
+.page-28 .fake-formula .border-bottom {
+  border-bottom: 1px solid #232d37;
+}
+.page-28 .fake-formula tr td:first-child {
+  font-size: 10.666667px;
+  font-family: 'Open Sans Semibold', sans-serif;
+  padding: 5px;
+  text-align: center;
+}
+.page-28 .fake-formula .number {
+  font-family: 'Open Sans Bold', sans-serif;
+  font-size: 32px;
+  vertical-align: middle;
+  line-height: 1;
+  padding-left: 20px;
+}
+.page-34 .bg-image {
+  background-image: url("../img/sensitivities-bg.jpg");
 }
 @media (min-width: 1461px) {
   html {

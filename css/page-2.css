@@ -12,7 +12,7 @@
   margin-bottom: 20px;
 }
 .page-2 ul.contents li.level-1 {
-  font-weight: 600;
+  font-family: 'Open Sans Semibold', sans-serif;
   margin-top: 35px;
 }
 .page-2 ul.contents li.level-1:first-child {

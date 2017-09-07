@@ -1,0 +1,44 @@
+.page-28 .circles {
+  margin: 0 auto;
+}
+.page-28 .circles .endurance div,
+.page-28 .circles .power div {
+  border-radius: 50%;
+  font-size: 17.333333px;
+  text-transform: uppercase;
+  background-color: #00aaff;
+  width: 120px;
+  height: 120px;
+  font-family: 'Open Sans CondensedBold', sans-serif;
+  color: #fff;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+.page-28 .circles .power {
+  padding-left: 10px;
+}
+.page-28 .circles .power div {
+  background-color: rgba(0, 170, 255, 0.3);
+  height: 80px;
+  width: 80px;
+}
+.page-28 .fake-formula {
+  margin: 0 auto;
+}
+.page-28 .fake-formula .border-bottom {
+  border-bottom: 1px solid #232d37;
+}
+.page-28 .fake-formula tr td:first-child {
+  font-size: 10.666667px;
+  font-family: 'Open Sans Semibold', sans-serif;
+  padding: 5px;
+  text-align: center;
+}
+.page-28 .fake-formula .number {
+  font-family: 'Open Sans Bold', sans-serif;
+  font-size: 32px;
+  vertical-align: middle;
+  line-height: 1;
+  padding-left: 20px;
+}
