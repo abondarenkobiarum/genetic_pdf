@@ -132,6 +132,59 @@ header.dark-bg-with-opacity .name {
 .columns.first-small .column:last-child {
   width: 70%;
 }
+.markers {
+  width: 100%;
+  font-family: 'Open Sans Semibold', sans-serif;
+  display: table;
+  margin-bottom: 65px;
+  height: 84px;
+}
+.markers__left-text,
+.markers__right-text {
+  font-size: 11px;
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+  width: 36%;
+  box-sizing: border-box;
+}
+.markers__left-text {
+  text-align: left;
+  padding-right: 35px;
+}
+.markers__right-text {
+  padding-left: 35px;
+  text-align: right;
+}
+.markers__middle-part {
+  display: table-cell;
+  width: 28%;
+  position: relative;
+}
+.markers__middle-part .left-allele,
+.markers__middle-part .right-allele {
+  font-size: 32px;
+  position: absolute;
+  line-height: 1;
+  bottom: 50%;
+}
+.markers__middle-part .left-allele {
+  left: 0;
+}
+.markers__middle-part .right-allele {
+  right: 0;
+}
+.markers__middle-part .images {
+  position: absolute;
+  height: 84px;
+  width: 100%;
+  text-align: center;
+  top: 0;
+}
+.markers__middle-part .images img {
+  height: 84px;
+  width: auto;
+}
 .text {
   margin: 0 0 15px;
   font-size: 12.8px;
