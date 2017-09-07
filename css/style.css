@@ -52,7 +52,7 @@ html {
   color: #232d37;
 }
 .page-container {
-  min-width: 612px;
+  min-width: 760px;
   max-width: 2062px;
   width: 100%;
   min-height: 100%;
@@ -229,6 +229,9 @@ header.dark-bg-with-opacity.bg-image {
 .blue-text {
   color: #00aaff;
   font-family: 'Open Sans Semibold', sans-serif;
+}
+.small-letters {
+  text-transform: lowercase;
 }
 .border-block {
   border: 2px solid #f0f5fa;
