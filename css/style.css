@@ -144,7 +144,7 @@ header.dark-bg-with-opacity .name {
   display: table-cell;
   height: 100%;
   vertical-align: middle;
-  width: 36%;
+  width: 35%;
   box-sizing: border-box;
 }
 .markers__left-text {
@@ -157,7 +157,7 @@ header.dark-bg-with-opacity .name {
 }
 .markers__middle-part {
   display: table-cell;
-  width: 28%;
+  width: 30%;
   position: relative;
 }
 .markers__middle-part .left-allele,
