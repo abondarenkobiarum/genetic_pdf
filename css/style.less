@@ -155,7 +155,6 @@ header {
   width: 100%;
   font-family: 'Open Sans Semibold', sans-serif;
   display: table;
-  margin-bottom: 65px;
   height: 84px;
   &__left-text,
   &__right-text {
@@ -180,6 +179,7 @@ header {
     position: relative;
     .left-allele,
     .right-allele {
+      text-transform: uppercase;
       font-size: 32px;
       position: absolute;
       line-height: 1;
@@ -200,6 +200,22 @@ header {
       img {
         height: 84px;
         width: auto;
+      }
+    }
+  }
+  &.details {
+    margin-bottom: 65px;
+    height: 42px;
+    .markers__left-text,
+    .markers__right-text {
+      width: 39%;
+      vertical-align: bottom;
+    }
+    .markers__middle-part {
+      width: 22%;
+      .left-allele,
+      .right-allele {
+        bottom: 0;
       }
     }
   }
