@@ -49,6 +49,7 @@ html {
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   background-color: #fff;
+  color: #232d37;
 }
 .page-container {
   min-width: 700px;
@@ -391,23 +392,30 @@ footer .number {
 }
 .page-4 .border-block .fake-list__line {
   margin-bottom: 15px;
+  display: table;
 }
 .page-4 .border-block .fake-list__line:last-child {
   margin-bottom: 0;
 }
-.page-4 .border-block .fake-list__line .number {
-  font-size: 14px;
+.page-4 .border-block .fake-list__line .number-wrapper {
+  display: table-cell;
+  vertical-align: top;
+}
+.page-4 .border-block .fake-list__line .number-wrapper .number {
+  font-size: 12px;
   margin-right: 7px;
   margin-top: 3px;
   color: #fff;
   border-radius: 50%;
   background-color: #00aaff;
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   text-align: center;
-  float: left;
+  font-family: 'Open Sans Bold', sans-serif;
 }
 .page-4 .border-block .fake-list__line .text {
+  display: table-cell;
+  vertical-align: top;
   font-size: 12.8px;
 }
 .page-4 img.map {
