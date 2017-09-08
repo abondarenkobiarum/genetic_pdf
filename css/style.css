@@ -68,7 +68,7 @@ html {
   display: block;
 }
 header .name {
-  font-size: 53.333333px;
+  font-size: 3.313rem;
   line-height: 92.8571428571%;
   text-transform: uppercase;
   color: #fff;
@@ -85,7 +85,7 @@ header .name .table-cell {
   vertical-align: middle;
 }
 header .name.less-size {
-  font-size: 37px;
+  font-size: 2.313rem;
 }
 header.dark-bg .name {
   background-color: #232d37;
@@ -108,7 +108,7 @@ header.dark-bg-with-opacity.bg-image {
 .content h1 {
   font-family: 'Open Sans CondensedBold', sans-serif;
   text-transform: uppercase;
-  font-size: 29px;
+  font-size: 1.813rem;
   margin: 0 0 20px;
   line-height: 1;
 }
@@ -116,7 +116,7 @@ header.dark-bg-with-opacity.bg-image {
   margin: 0 0 15px;
   text-transform: uppercase;
   font-family: 'Open Sans CondensedBold', sans-serif;
-  font-size: 17px;
+  font-size: 1.063rem;
 }
 .columns {
   width: 100%;
@@ -148,7 +148,7 @@ header.dark-bg-with-opacity.bg-image {
 }
 .markers__left-text,
 .markers__right-text {
-  font-size: 11px;
+  font-size: 0.6875rem;
   display: table-cell;
   height: 100%;
   vertical-align: middle;
@@ -171,7 +171,7 @@ header.dark-bg-with-opacity.bg-image {
 .markers__middle-part .left-allele,
 .markers__middle-part .right-allele {
   text-transform: uppercase;
-  font-size: 32px;
+  font-size: 2rem;
   position: absolute;
   line-height: 1;
   bottom: 50%;
@@ -211,14 +211,14 @@ header.dark-bg-with-opacity.bg-image {
 }
 .text {
   margin: 0 0 15px;
-  font-size: 12.8px;
+  font-size: 0.75rem;
   line-height: 137.5%;
 }
 .size-16 {
-  font-size: 16px;
+  font-size: 1rem;
 }
 .size-8 {
-  font-size: 8px;
+  font-size: 0.5rem;
 }
 .semibold {
   font-family: 'Open Sans Semibold', sans-serif;
@@ -243,24 +243,24 @@ header.dark-bg-with-opacity.bg-image {
   margin: 0 0 10px;
   text-transform: uppercase;
   font-family: 'Open Sans CondensedBold', sans-serif;
-  font-size: 17px;
+  font-size: 1.063rem;
 }
 .border-block .text {
   margin: 0;
 }
 .border-block .example-header {
   font-family: 'Open Sans SemiboldItalic', sans-serif;
-  font-size: 11px;
+  font-size: 0.6875rem;
   margin-bottom: 20px;
 }
 table.custom-table {
   width: 100%;
-  border-spacing: 0px;
+  border-spacing: 0;
 }
 table.custom-table thead tr th {
   padding: 3px 5px;
   font-family: 'Open Sans Bold', sans-serif;
-  font-size: 8px;
+  font-size: 0.5rem;
   text-align: left;
   border-bottom: 1px solid #00aaff;
 }
@@ -269,7 +269,7 @@ table.custom-table thead tr th:not(:first-child) {
 }
 table.custom-table tbody tr td {
   padding: 3px 5px;
-  font-size: 8px;
+  font-size: 0.5rem;
   text-align: left;
   border-bottom: 0.5px solid #b2e5ff;
 }
@@ -289,14 +289,14 @@ footer {
 footer .name {
   display: table-cell;
   text-transform: uppercase;
-  font-size: 7px;
+  font-size: 0.4375rem;
   width: 50%;
   color: #00aaff;
   vertical-align: middle;
 }
 footer .number {
   display: table-cell;
-  font-size: 7.333333px;
+  font-size: 0.4375rem;
   width: 50%;
   text-align: right;
   color: #00aaff;
@@ -313,7 +313,7 @@ footer .number {
   text-align: center;
 }
 .page-1 .header {
-  font-size: 133.333333px;
+  font-size: 8.313rem;
   width: 60%;
   margin: 0 auto;
   padding-top: 200px;
@@ -321,7 +321,7 @@ footer .number {
   font-family: 'Open Sans CondensedBold', sans-serif;
 }
 .page-1 .subheader {
-  font-size: 53.333333px;
+  font-size: 3.313rem;
   width: 60%;
   margin: 0 auto;
   padding-top: 2.51572327044%;
@@ -330,7 +330,7 @@ footer .number {
   font-family: 'Open Sans CondensedLight', sans-serif;
 }
 .page-1 .copyright {
-  font-size: 7.333333px;
+  font-size: 0.4375rem;
   font-family: 'Open Sans CondensedBold', sans-serif;
   width: 60%;
   margin: 0 auto;
@@ -368,8 +368,8 @@ footer .number {
   content: '';
   display: block;
   position: absolute;
-  bottom: 0px;
-  left: 0px;
+  bottom: 0;
+  left: 0;
   width: 100%;
   height: 2px;
   border-top: 1px dotted #232d37;
@@ -393,7 +393,7 @@ footer .number {
   line-height: 1.5;
 }
 .page-3 .description {
-  font-size: 12.8px;
+  font-size: 0.75rem;
   width: 50%;
   padding: 30px 15px 30px 46px;
   box-sizing: border-box;
@@ -411,7 +411,7 @@ footer .number {
   vertical-align: top;
 }
 .page-4 .border-block .fake-list__line .number-wrapper .number {
-  font-size: 12px;
+  font-size: 0.75rem;
   margin-right: 7px;
   margin-top: 3px;
   color: #fff;
@@ -425,7 +425,7 @@ footer .number {
 .page-4 .border-block .fake-list__line .text {
   display: table-cell;
   vertical-align: top;
-  font-size: 12.8px;
+  font-size: 0.75rem;
 }
 .page-4 img.map {
   width: 100%;
@@ -441,11 +441,11 @@ footer .number {
   background: rgba(0, 170, 255, 0.08);
   padding: 20px 15px;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 1rem;
   margin-bottom: 20px;
 }
 .page-5 .bold-info {
-  font-size: 12.8px;
+  font-size: 0.75rem;
   font-family: 'Open Sans Semibold', sans-serif;
 }
 .page-6 .m-b-25 {
@@ -480,7 +480,7 @@ footer .number {
   background-color: #ffc800;
 }
 .page-7 .fake-list__line .text {
-  font-size: 12.8px;
+  font-size: 0.75rem;
 }
 .page-8 .bg-image {
   background-image: url("../img/weight-bg.jpg");
@@ -500,7 +500,7 @@ footer .number {
 .page-28 .circles .endurance div,
 .page-28 .circles .power div {
   border-radius: 50%;
-  font-size: 17.333333px;
+  font-size: 1.063rem;
   text-transform: uppercase;
   background-color: #00aaff;
   width: 120px;
@@ -526,43 +526,18 @@ footer .number {
   border-bottom: 1px solid #232d37;
 }
 .page-28 .fake-formula tr td:first-child {
-  font-size: 10.666667px;
+  font-size: 0.625rem;
   font-family: 'Open Sans Semibold', sans-serif;
   padding: 5px;
   text-align: center;
 }
 .page-28 .fake-formula .number {
   font-family: 'Open Sans Bold', sans-serif;
-  font-size: 32px;
+  font-size: 2rem;
   vertical-align: middle;
   line-height: 1;
   padding-left: 20px;
 }
 .page-34 .bg-image {
   background-image: url("../img/sensitivities-bg.jpg");
-}
-@media (min-width: 1461px) {
-  html {
-    font-size: 8px;
-  }
-}
-@media (max-width: 1460px) {
-  html {
-    font-size: 8px;
-  }
-}
-@media (max-width: 1320px) {
-  html {
-    font-size: 7px;
-  }
-}
-@media (max-width: 1225px) {
-  html {
-    font-size: 6px;
-  }
-}
-@media (max-width: 1070px) {
-  html {
-    font-size: 5px;
-  }
 }

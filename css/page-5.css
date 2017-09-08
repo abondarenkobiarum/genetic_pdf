@@ -8,10 +8,10 @@
   background: rgba(0, 170, 255, 0.08);
   padding: 20px 15px;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 1rem;
   margin-bottom: 20px;
 }
 .page-5 .bold-info {
-  font-size: 12.8px;
+  font-size: 0.75rem;
   font-family: 'Open Sans Semibold', sans-serif;
 }
