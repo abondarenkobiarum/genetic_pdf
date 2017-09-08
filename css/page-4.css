@@ -11,13 +11,13 @@
 }
 .page-4 .border-block .fake-list__line .number-wrapper .number {
   font-size: 0.75rem;
-  margin-right: 7px;
+  margin-right: 0.4375rem;
   margin-top: 3px;
   color: #fff;
   border-radius: 50%;
   background-color: #00aaff;
-  width: 18px;
-  height: 18px;
+  width: 1.125rem;
+  height: 1.125rem;
   text-align: center;
   font-family: 'Open Sans Bold', sans-serif;
 }

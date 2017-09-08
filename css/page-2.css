@@ -9,11 +9,11 @@
   display: block;
   position: relative;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 .page-2 ul.contents li.level-1 {
   font-family: 'Open Sans Semibold', sans-serif;
-  margin-top: 35px;
+  margin-top: 2.188rem;
 }
 .page-2 ul.contents li.level-1:first-child {
   margin-top: 0;
@@ -44,11 +44,11 @@
 .page-2 ul.contents li .page {
   display: block;
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 0;
+  right: 0;
   z-index: 2;
   background: #fff;
-  width: 30px;
+  width: 1.875rem;
   text-align: right;
   line-height: 1.5;
 }
