@@ -228,6 +228,153 @@ header {
   }
 }
 
+.genetics-graph {
+  position: relative;
+  margin-left: 55px;
+  width: 9.375rem;
+  height: 17.5rem;
+  &__slider {
+    position: absolute;
+    z-index: 3;
+    left: -55px;
+    top: 0.4375rem;
+
+    display: table;
+    .tooltip {
+      display: table-cell;
+      padding-right: 15px;
+      vertical-align: middle;
+      div {
+        display: block;
+        font-size: 10px;
+        font-family: 'Open Sans Semibold', sans-serif;
+        background-color: #232d37;
+        border-radius: 4px;
+        color: #fff;
+        padding: 3px 0;
+        width: 30px;
+        text-align: center;
+      }
+    }
+    .number {
+      display: table-cell;
+      vertical-align: middle;
+      width: 60px;
+      padding: 3px;
+      line-height: 1;
+      box-sizing: border-box;
+      text-align: center;
+      font-family: 'Open Sans Semibold', sans-serif;
+      font-size: 12.8px;
+      color: #fff;
+      border: 1px solid #fff;
+      &.lower {
+        background-color: #64c800;
+      }
+      &.average {
+        background-color: #00beb9;
+      }
+      &.higher {
+        background-color: #00aaff;
+      }
+    }
+  }
+  &__gradient-block {
+    position: absolute;
+    left: 0;
+    height: 17.5rem;
+    width: 2.5rem;
+    &--values {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      padding-top: 0.4375rem;
+      padding-bottom: 0.4375rem;
+      box-sizing: border-box;
+      z-index: 2;
+      table {
+        width: 100%;
+        height: 100%;
+        border-spacing: 0;
+        tr td {
+          text-align: center;
+          font-size: 10px;
+          line-height: 1;
+          color: #fff;
+          font-family: 'Open Sans Semibold', sans-serif;
+          vertical-align: top;
+          padding-top: 0.4375rem;
+          padding-bottom: 0.4375rem;
+        }
+      }
+    }
+    &--gradient {
+      position: absolute;
+      height: 17.5rem;
+      width: 2.5rem;
+      z-index: 1;
+
+      box-sizing: border-box;
+      padding-top: 1.188rem;
+      padding-bottom: 1.188rem;
+      background: #00aaff;
+      background: -moz-linear-gradient(top, #00aaff 0%, #00aaff 50%, #64c800 51%, #64c800 100%);
+      background: -webkit-linear-gradient(top, #00aaff 0%,#00aaff 50%,#64c800 51%,#64c800 100%);
+      background: linear-gradient(to bottom, #00aaff 0%,#00aaff 50%,#64c800 51%,#64c800 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00aaff', endColorstr='#64c800',GradientType=0 );
+      table {
+        width: 100%;
+        height: 100%;
+        border-spacing: 0;
+
+        .higher {
+          background: #00aaff;
+          background: -moz-linear-gradient(top, #00aaff 0%, #00aaff 90%, #00beb9 100%);
+          background: -webkit-linear-gradient(top, #00aaff 0%,#00aaff 90%,#00beb9 100%);
+          background: linear-gradient(to bottom, #00aaff 0%,#00aaff 90%,#00beb9 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00aaff', endColorstr='#00beb9',GradientType=0 );
+        }
+        .average {
+          background: #00beb9;
+        }
+        .lower {
+          background: #64c800;
+          background: -moz-linear-gradient(top, #00beb9 0%, #64c800 10%, #64c800 100%);
+          background: -webkit-linear-gradient(top, #00beb9 0%,#64c800 10%,#64c800 100%);
+          background: linear-gradient(to bottom, #00beb9 0%,#64c800 10%,#64c800 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00beb9', endColorstr='#64c800',GradientType=0 );
+        }
+      }
+    }
+  }
+  &__text {
+    position: absolute;
+    right: 0;
+    width: 6.875rem;
+    height: 17.5rem;
+    vertical-align: middle;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    table {
+      border-spacing: 0;
+      width: 100%;
+      height: 100%;
+      .higher, .average, .lower {
+        font-size: 0.5rem;
+        font-family: 'Open Sans CondensedBold', sans-serif;
+        text-transform: uppercase;
+        color: #b9c3cd;
+      }
+      .average {
+        border-bottom: 1px solid #b9c3cd;
+        border-top: 1px solid #b9c3cd;
+      }
+    }
+  }
+}
+
 .text {
   margin: 0 0 0.9375rem;
   font-size: 0.75rem;
