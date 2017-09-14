@@ -8,22 +8,30 @@
   text-align: center;
   min-height: 100vh;
 }
+.page-1 .top-part {
+  height: 85vh;
+  display: table;
+  width: 100%;
+}
 .page-1 .top-part .header {
+  vertical-align: middle;
   font-size: 8.313rem;
-  width: 60%;
-  margin: 0 auto;
-  padding-top: 25.2525253vh;
+  height: 100%;
+  display: table-cell;
   line-height: 1;
   font-family: 'Open Sans CondensedBold', sans-serif;
 }
-.page-1 .top-part .subheader {
+.page-1 .top-part .header .subheader {
   font-size: 3.313rem;
   width: 60%;
   margin: 0 auto;
   padding-top: 2.51572327044vh;
-  padding-bottom: 25.2525253vh;
   line-height: 1;
   font-family: 'Open Sans CondensedLight', sans-serif;
+}
+.page-1 .bottom-part {
+  height: 15vh;
+  width: 100%;
 }
 .page-1 .bottom-part .copyright {
   font-size: 0.4375rem;
@@ -32,5 +40,4 @@
   margin: 0 auto;
   color: #87919b;
   padding-top: 2.51572327044vh;
-  padding-bottom: 5.66037735849vh;
 }
