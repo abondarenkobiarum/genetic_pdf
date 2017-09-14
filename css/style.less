@@ -116,6 +116,11 @@ header {
   padding: 45px 46px 0;
   box-sizing: border-box;
   width: 100%;
+  &--wrapper {
+    min-height: ~"calc(100vh - 7.5rem - 3.438rem)";
+    padding: 0 0 3.438rem;
+    box-sizing: border-box;
+  }
   h1 {
     font-family: 'Open Sans CondensedBold', sans-serif;
     text-transform: uppercase;
@@ -478,9 +483,9 @@ table.custom-table {
 
 footer {
   height: 3.438rem;
-  //position: absolute;
-  //bottom: 0;
-  //left: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
   padding: 0 46px;
   width: 100%;
   box-sizing: border-box;

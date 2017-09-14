@@ -1,3 +1,6 @@
+.page-4 .content--wrapper {
+  min-height: calc(100vh - 7.5rem - 288px - 3.438rem);
+}
 .page-4 .border-block .fake-list__line {
   margin-bottom: 15px;
   display: table;
@@ -26,7 +29,10 @@
   vertical-align: top;
   font-size: 0.75rem;
 }
-.page-4 img.map {
+.page-4 .map {
   width: 100%;
-  height: auto;
+  height: 288px;
+  background-image: url(../img/map.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }

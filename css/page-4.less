@@ -1,4 +1,7 @@
 .page-4 {
+  .content--wrapper {
+    min-height: ~"calc(100vh - 7.5rem - 288px - 3.438rem)";
+  }
   .border-block {
     .fake-list {
       &__line {
@@ -32,8 +35,11 @@
     }
   }
 
-  img.map {
+  .map {
     width: 100%;
-    height: auto;
+    height: 288px;
+    background-image: url(../img/map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }

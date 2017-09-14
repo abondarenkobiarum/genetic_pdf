@@ -102,6 +102,11 @@ header.dark-bg-with-opacity.bg-image {
   box-sizing: border-box;
   width: 100%;
 }
+.content--wrapper {
+  min-height: calc(100vh - 7.5rem - 3.438rem);
+  padding: 0 0 3.438rem;
+  box-sizing: border-box;
+}
 .content h1 {
   font-family: 'Open Sans CondensedBold', sans-serif;
   text-transform: uppercase;
@@ -443,6 +448,9 @@ table.custom-table.header-left-table tbody tr td:first-child {
 }
 footer {
   height: 3.438rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
   padding: 0 46px;
   width: 100%;
   box-sizing: border-box;
@@ -558,9 +566,16 @@ footer .number {
 .page-3 .description {
   font-size: 0.75rem;
   width: 50%;
-  padding: 30px 15px 30px 46px;
+  padding: 1.875rem 15px 1.875rem 46px;
   box-sizing: border-box;
   color: #fff;
+  height: 22.5rem;
+}
+.page-3 .content--wrapper {
+  min-height: calc(100vh - 7.5rem - 22.5rem - 3.438rem);
+}
+.page-4 .content--wrapper {
+  min-height: calc(100vh - 7.5rem - 288px - 3.438rem);
 }
 .page-4 .border-block .fake-list__line {
   margin-bottom: 15px;
@@ -590,9 +605,12 @@ footer .number {
   vertical-align: top;
   font-size: 0.75rem;
 }
-.page-4 img.map {
+.page-4 .map {
   width: 100%;
-  height: auto;
+  height: 288px;
+  background-image: url(../img/map.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .page-5 img.genetics {
   width: 500px;
